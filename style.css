@@ -1,0 +1,146 @@
+.triangle{
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #3E3C3C;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 255px;
+    height: 40px;
+    right: 194px;
+    top: calc(50% - 40px/2);
+}
+
+.portfolio{
+    position: static;
+    width: 63px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    padding-right: 30px;
+}
+  
+.about{
+    position: static;
+    width: 45px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    padding-right: 23px;
+}
+  
+.contact{
+    position: static;
+    width: 59px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    padding-right: 23px;
+}
+
+.topnav a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    color: grey;
+}
+
+.logo-triangle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 116px;
+  height: 18px;
+  left: 80px;
+  top: 16px;
+}
+
+.logo{
+    position: static;
+    width: 92px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header-box{ 
+  position: absolute;
+  width: 1003.13px;
+  height: 769.27px;
+  left: 1744.68px;
+  top: -135px;
+  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+}
+
+.svg-image{
+    width: 290vh;
+    height: 110vh;
+}
